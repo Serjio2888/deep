@@ -2,8 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(project C)
 
 set(CMAKE_C_STANDARD 11)
-
-include_directories(.)
+set(CMAKE_C_STANDARD_REQUIRED ON)
 
 add_executable(project
         main.c
@@ -16,9 +15,5 @@ add_executable(project
 
 target_link_libraries(project m)
 
-enable_testing()
 
-add_test(NAME MainTest
-        COMMAND project)
 
-enable_testing()

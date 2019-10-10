@@ -1,4 +1,0 @@
-/home/sergey/project/CMakeFiles/rebuild_cache.dir
-/home/sergey/project/CMakeFiles/edit_cache.dir
-/home/sergey/project/CMakeFiles/project.dir
-/home/sergey/project/CMakeFiles/test.dir

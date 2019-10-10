@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/project.dir/main.c.o CMakeFiles/project.dir/calc.c.o CMakeFiles/project.dir/tests.c.o  -o project -lm 

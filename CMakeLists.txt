@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.10)
 project(project C)
 
 set(CMAKE_C_STANDARD 11)
@@ -21,5 +21,4 @@ enable_testing()
 add_test(NAME MainTest
         COMMAND project)
 
-set_tests_properties(MainTest PROPERTIES
-        PASS_REGULAR_EXPRESSION "OK")
+enable_testing()

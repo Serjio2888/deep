@@ -1,0 +1,21 @@
+Start testing: Oct 11 00:47 MSK
+----------------------------------------------------------
+1/1 Testing: MainTest
+1/1 Test: MainTest
+Command: "/home/sergey/project/project"
+Directory: /home/sergey/project
+"MainTest" start time: Oct 11 00:47 MSK
+Output:
+----------------------------------------------------------
+scanning triangle info...
+please, input sides
+5.00000000
+<end of output>
+Test time =   2.36 sec
+----------------------------------------------------------
+Test Passed.
+"MainTest" end time: Oct 11 00:47 MSK
+"MainTest" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Oct 11 00:47 MSK

@@ -1,3 +1,4 @@
 /home/sergey/project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/sergey/project/cmake-build-debug/CMakeFiles/project.dir
 /home/sergey/project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sergey/project/cmake-build-debug/CMakeFiles/project.dir
+/home/sergey/project/cmake-build-debug/CMakeFiles/test.dir

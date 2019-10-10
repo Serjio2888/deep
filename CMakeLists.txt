@@ -15,3 +15,11 @@ add_executable(project
         tests.c)
 
 target_link_libraries(project m)
+
+enable_testing()
+
+add_test(NAME MainTest
+        COMMAND project)
+
+set_tests_properties(MainTest PROPERTIES
+        PASS_REGULAR_EXPRESSION "OK")

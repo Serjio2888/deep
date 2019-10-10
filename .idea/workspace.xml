@@ -11,10 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73e11cda-201c-43ef-b3ad-24158810816d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-    </list>
+    <list default="true" id="73e11cda-201c-43ef-b3ad-24158810816d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570723362136</updated>
       <workItem from="1570723377232" duration="2274000" />
-      <workItem from="1570736307267" duration="7348000" />
+      <workItem from="1570736307267" duration="8102000" />
     </task>
     <servers />
   </component>

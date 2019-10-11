@@ -4,6 +4,7 @@ project(project C)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
+
 add_executable(project
         main.c
         proj.h
@@ -14,6 +15,7 @@ add_executable(project
         tests.c)
 
 target_link_libraries(project m)
+
 
 
 

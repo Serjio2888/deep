@@ -16,6 +16,6 @@ fi
 ${CPPCHECK} project --enable=all --error-exitcode=1 -I project/QueryInfo -I project/String --suppress=missingIncludeSystem # --check-config
 
 print_header "RUN cpplint.py"
-python2.7 ./linters/cpplint/cpplint.py --extensions=c,cpp project/QueryInfo/* project/String/*
+python2.7 ./linters/cpplint/cpplint.py --extensions=c,cpp *
 
 print_header "SUCCESS"

@@ -24,7 +24,7 @@ install:
 
 before_script:
 
-  - clang-format -i -style=Google *.h *.cpp *.c
+  - clang-format -i -style=Google *.h *.c
 
 script:
 

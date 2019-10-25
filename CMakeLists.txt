@@ -7,4 +7,5 @@ add_executable(iz2
         main.c
         header.h
         do_statistic.c
-        test_10000.c run_and_write.c structs.h)
+        test_10000.c
+        run_and_write.c structs.h)

@@ -3,7 +3,7 @@
 struct Employee* write_employees(int n, int max_years, struct Employee *emp) {
     int salary, pos_id, stage, age;
     char *name[15], *surname[16];
-    for (size_t i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i) {
         printf("-------filling info about %d's employee-------\n", i+1);
 
         printf("what's %d's employee's salary?\n", i+1);
@@ -47,11 +47,11 @@ struct Employee* write_employees(int n, int max_years, struct Employee *emp) {
         };
 
         printf("what's his name?\n");
-        scanf("%s", &name);
+        scanf("%15s", &name);
         strcpy(emp[i].name, name);
 
         printf("what's his surname?\n");
-        scanf("%s", &surname);
+        scanf("%16s", &surname);
         strcpy(emp[i].surname, surname);
     }
     return emp;

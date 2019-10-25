@@ -12,7 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99b4bc92-4cdf-48c2-8456-bad47871d82b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/do_statistic.c" beforeDir="false" afterPath="$PROJECT_DIR$/do_statistic.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/in.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linters/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/linters/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/one_process.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_and_write.c" beforeDir="false" afterPath="$PROJECT_DIR$/run_and_write.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +40,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="run.sh" />
+      <command value="linters/run.sh" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -66,7 +80,7 @@
       <workItem from="1571591338840" duration="4136000" />
       <workItem from="1571749306134" duration="1662000" />
       <workItem from="1571751083528" duration="22724000" />
-      <workItem from="1571915996623" duration="17437000" />
+      <workItem from="1571915996623" duration="18576000" />
     </task>
     <servers />
   </component>

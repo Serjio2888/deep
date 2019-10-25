@@ -1,5 +1,5 @@
-#ifndef IZ2_STRUCTS_H
-#define IZ2_STRUCTS_H
+#ifndef STRUCTS_H_
+#define STRUCTS_H_
 
 typedef struct Employee {
     int salary;
@@ -15,7 +15,7 @@ typedef struct statistic {
     int position_id;
     int work_stage;
     int sum_salary;
-    int size; //how many people are with the same position and work stage
+    int size;  // how many people are with the same position and work stage
 };
 
-#endif //IZ2_STRUCTS_H
+#endif  // STRUCTS_H_

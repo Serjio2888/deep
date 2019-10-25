@@ -16,12 +16,12 @@ struct statistic* calc_stat(struct statistic *stat, struct Employee *emp, int po
 
 void working_with_statistics_in_many_proc(struct Employee *emp, int max_years, int n) {
     char **positions[POSITIONS][9];
-    strcpy(positions[0], "novice");
-    strcpy(positions[1], "junior");
-    strcpy(positions[2], "middle");
-    strcpy(positions[3], "senior");
-    strcpy(positions[4], "teamlead");
-    strcpy(positions[5], "boss");
+    snprintf(positions[0], sizeof(positions[0]),  "%s", "novice");
+    snprintf(positions[1], sizeof(positions[1]),  "%s", "junior");
+    snprintf(positions[2], sizeof(positions[2]),  "%s", "middle");
+    snprintf(positions[3], sizeof(positions[3]),  "%s", "senior");
+    snprintf(positions[4], sizeof(positions[4]),  "%s", "teamlead");
+    snprintf(positions[5], sizeof(positions[5]),  "%s", "boss");
 
     int pos = 0;
     while (pos < POSITIONS) {  // итератор идёт по всем позициям
@@ -38,16 +38,17 @@ void working_with_statistics_in_many_proc(struct Employee *emp, int max_years, i
         }
         ++pos;
     }
+    free(emp);
 }
 
 void working_with_statistics_in_one_process(struct Employee *emp, int max_years, int n) {
     char **positions[POSITIONS][9];
-    strcpy(positions[0], "novice");
-    strcpy(positions[1], "junior");
-    strcpy(positions[2], "middle");
-    strcpy(positions[3], "senior");
-    strcpy(positions[4], "teamlead");
-    strcpy(positions[5], "boss");
+    snprintf(positions[0], sizeof(positions[0]),  "%s", "novice");
+    snprintf(positions[1], sizeof(positions[1]),  "%s", "junior");
+    snprintf(positions[2], sizeof(positions[2]),  "%s", "middle");
+    snprintf(positions[3], sizeof(positions[3]),  "%s", "senior");
+    snprintf(positions[4], sizeof(positions[4]),  "%s", "teamlead");
+    snprintf(positions[5], sizeof(positions[5]),  "%s", "boss");
 
     for (size_t pos = 0; pos < POSITIONS; ++pos) {
         struct statistic *pos_stat = (struct statistic *) malloc(
@@ -59,5 +60,6 @@ void working_with_statistics_in_one_process(struct Employee *emp, int max_years,
         }
         free(pos_stat);
     }
+    free(emp);
 }
 

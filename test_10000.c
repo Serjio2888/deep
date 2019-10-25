@@ -21,10 +21,10 @@ struct Employee* random_emp(struct Employee *emp) {
                 emp[i].age = (pid)%30+18;
             }
             for (int i = part_of_array - 1000; i < part_of_array; ++i) {
-                strcpy(emp[i].name, "John");
+                snprintf(emp[i].name, sizeof(emp[i].name), "%s", "John");
             }
             for (int i = part_of_array - 1000; i < part_of_array; ++i) {
-                strcpy(emp[i].surname, "Constantine");
+                snprintf(emp[i].surname, sizeof(emp[i].surname), "%s", "Constantine");
             }
         }
         if (pid == 0) {
@@ -36,7 +36,7 @@ struct Employee* random_emp(struct Employee *emp) {
     return emp;
 }
 
-int ten_thousand_test(bool many_processes){
+int ten_thousand_test(bool many_processes) {
     int n = 10000;
     struct Employee *emp = (struct Employee*)malloc(sizeof(struct Employee)*n);
     emp = random_emp(emp);
@@ -51,12 +51,12 @@ int ten_thousand_test(bool many_processes){
     double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
 
     printf("%f", time_spent);
-    free(emp);
+    // free(emp);
 
     return 0;
 }
 
-void main(){
+void main() {
     ten_thousand_test(true);  // много процессов
     ten_thousand_test(false);  // один процесс
 }
@@ -64,4 +64,4 @@ void main(){
     Однопроцессная программа отрабатывала в среднем за 0,004228с, а 6 процессов - за 0,002318с
     То есть почти в два раза быстрее.
     Предполагаю, что если бы количество рассчетов сильно увеличилось, прирост был бы намного заметнее.
-    Так как в нашем случае относительно много времени ушло на порождение дочерних процессов*/
+    Так как в нашем случае относительно много времени ушло на порождение дочерних процессов */

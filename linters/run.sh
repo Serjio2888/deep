@@ -14,7 +14,7 @@ else
 	CPPCHECK="./linters/cppcheck/cppcheck"
 fi
 echo "here"
-${CPPCHECK} project --enable=all --error-exitcode=1 -I * --suppress=missingIncludeSystem # --check-config
+${CPPCHECK} project --enable=all --error-exitcode=1 -I * --suppress=missingIncludeSystem  -i in.txt README.md# --check-config
 echo "here"
 print_header "RUN cpplint.py"
 python2.7 ./linters/cpplint/cpplint.py --extensions=c,cpp *

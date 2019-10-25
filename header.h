@@ -1,5 +1,5 @@
-#ifndef IZ2_HEADER_H
-#define IZ2_HEADER_H
+#ifndef HEADER_H_
+#define HEADER_H_
 
 #include <stdio.h>
 #include <unistd.h>
@@ -19,4 +19,4 @@ void working_with_statistics(struct Employee *emp, int max_years, int n);
 struct Employee* write_employees(int n, int max_years, struct Employee *emp);
 void run_app();
 
-#endif //IZ2_HEADER_H
+#endif  // HEADER_H_

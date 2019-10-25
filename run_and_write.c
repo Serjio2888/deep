@@ -8,7 +8,7 @@ struct Employee* write_employees(int n, int max_years, struct Employee *emp) {
 
         printf("what's %d's employee's salary?\n", i+1);
         scanf("%d", &salary);
-        if (salary < 0 ){
+        if (salary < 0) {
             emp[i].salary = 0;
         } else {
             emp[i].salary = salary;
@@ -32,11 +32,11 @@ struct Employee* write_employees(int n, int max_years, struct Employee *emp) {
         scanf("%d", &stage);
         if (stage > max_years) {
             emp[i].work_stage = max_years;
-        } else if (stage < 0){
+        } else if (stage < 0) {
             emp[i].work_stage = 0;
         } else {
             emp[i].work_stage = stage;
-        };
+        }
 
         printf("what's his age?\n");
         scanf("%d", &age);
@@ -44,20 +44,20 @@ struct Employee* write_employees(int n, int max_years, struct Employee *emp) {
             emp[i].age = 18;
         } else {
             emp[i].age = age;
-        };
+        }
 
         printf("what's his name?\n");
         scanf("%15s", &name);
-        strcpy(emp[i].name, name);
+        snprintf(emp[i].name, sizeof(emp[i].name), "%s", name);
 
         printf("what's his surname?\n");
         scanf("%16s", &surname);
-        strcpy(emp[i].surname, surname);
+        snprintf(emp[i].name, sizeof(emp[i].surname), "%s", surname);
     }
     return emp;
 }
 
-void run_app(){
+void run_app() {
     int n = 0;
     int max_years = 0;
 

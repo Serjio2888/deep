@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/sergey/iz2/do_statistic.c
-header.h
-/home/sergey/iz2/header.h
-
 /home/sergey/iz2/header.h
 stdio.h
 -
@@ -26,17 +22,9 @@ time.h
 structs.h
 /home/sergey/iz2/structs.h
 
-/home/sergey/iz2/main.c
-header.h
-/home/sergey/iz2/header.h
-
 /home/sergey/iz2/run_and_write.c
 header.h
 /home/sergey/iz2/header.h
 
 /home/sergey/iz2/structs.h
-
-/home/sergey/iz2/test_10000.c
-header.h
-/home/sergey/iz2/header.h
 

@@ -75,4 +75,6 @@ void run_app(){
     } else {
         working_with_statistics_in_one_process(emp, max_years, n);
     }
+
+    free(emp);
 }

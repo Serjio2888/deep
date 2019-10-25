@@ -25,11 +25,12 @@ install:
 before_script:
 
   - clang-format -i -style=Google *.h *.c
+  - ./linters/run.sh || travis_terminate 1
 
 script:
 
   - cmake . #-fprofile-arcs -ftest-coverage .
-  - cmake --build .
+  - cmake --build . || travis_terminate 1
   #- gcovr -r . #so here i can see test summary on travis site
   #    - ctest .
   - valgrind --tool=memcheck --gen-suppressions=all --leak-check=full --leak-resolution=med --track-origins=yes --vgdb=no ./a.out < in.txt

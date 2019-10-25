@@ -12,7 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99b4bc92-4cdf-48c2-8456-bad47871d82b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/iz2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/iz2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/do_statistic.c" beforeDir="false" afterPath="$PROJECT_DIR$/do_statistic.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_and_write.c" beforeDir="false" afterPath="$PROJECT_DIR$/run_and_write.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_10000.c" beforeDir="false" afterPath="$PROJECT_DIR$/test_10000.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +72,7 @@
       <workItem from="1571591338840" duration="4136000" />
       <workItem from="1571749306134" duration="1662000" />
       <workItem from="1571751083528" duration="22724000" />
-      <workItem from="1571915996623" duration="15008000" />
+      <workItem from="1571915996623" duration="17114000" />
     </task>
     <servers />
   </component>

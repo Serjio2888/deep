@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/sergey/project/calc.c" "/home/sergey/project/cmake-build-debug/CMakeFiles/project.dir/calc.c.o"
-  "/home/sergey/project/main.c" "/home/sergey/project/cmake-build-debug/CMakeFiles/project.dir/main.c.o"
-  "/home/sergey/project/tests.c" "/home/sergey/project/cmake-build-debug/CMakeFiles/project.dir/tests.c.o"
+  "/home/sergey/iz2/do_statistic.c" "/home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2.dir/do_statistic.c.o"
+  "/home/sergey/iz2/main.c" "/home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2.dir/main.c.o"
+  "/home/sergey/iz2/run_and_write.c" "/home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2.dir/run_and_write.c.o"
+  "/home/sergey/iz2/test_10000.c" "/home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2.dir/test_10000.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../."
   )
 
 # Targets to which this target links.

@@ -48,10 +48,10 @@ RM = /opt/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sergey/project
+CMAKE_SOURCE_DIR = /home/sergey/iz2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sergey/project/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sergey/iz2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,22 +78,11 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/opt/clion-2019.2.4/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/project/cmake-build-debug/CMakeFiles /home/sergey/project/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2/cmake-build-debug/CMakeFiles /home/sergey/iz2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/project/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named project
+# Target rules for targets named iz2
 
 # Build rule for target.
-project: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 project
-.PHONY : project
+iz2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 iz2
+.PHONY : iz2
 
 # fast build rule for target.
-project/fast:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/build
-.PHONY : project/fast
+iz2/fast:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/build
+.PHONY : iz2/fast
 
-calc.o: calc.c.o
+do_statistic.o: do_statistic.c.o
 
-.PHONY : calc.o
+.PHONY : do_statistic.o
 
 # target to build an object file
-calc.c.o:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/calc.c.o
-.PHONY : calc.c.o
+do_statistic.c.o:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/do_statistic.c.o
+.PHONY : do_statistic.c.o
 
-calc.i: calc.c.i
+do_statistic.i: do_statistic.c.i
 
-.PHONY : calc.i
+.PHONY : do_statistic.i
 
 # target to preprocess a source file
-calc.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/calc.c.i
-.PHONY : calc.c.i
+do_statistic.c.i:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/do_statistic.c.i
+.PHONY : do_statistic.c.i
 
-calc.s: calc.c.s
+do_statistic.s: do_statistic.c.s
 
-.PHONY : calc.s
+.PHONY : do_statistic.s
 
 # target to generate assembly for a file
-calc.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/calc.c.s
-.PHONY : calc.c.s
+do_statistic.c.s:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/do_statistic.c.s
+.PHONY : do_statistic.c.s
 
 main.o: main.c.o
 
@@ -167,7 +156,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/main.c.o
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -176,7 +165,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/main.c.i
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -185,35 +174,62 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/main.c.s
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/main.c.s
 .PHONY : main.c.s
 
-tests.o: tests.c.o
+run_and_write.o: run_and_write.c.o
 
-.PHONY : tests.o
+.PHONY : run_and_write.o
 
 # target to build an object file
-tests.c.o:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/tests.c.o
-.PHONY : tests.c.o
+run_and_write.c.o:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/run_and_write.c.o
+.PHONY : run_and_write.c.o
 
-tests.i: tests.c.i
+run_and_write.i: run_and_write.c.i
 
-.PHONY : tests.i
+.PHONY : run_and_write.i
 
 # target to preprocess a source file
-tests.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/tests.c.i
-.PHONY : tests.c.i
+run_and_write.c.i:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/run_and_write.c.i
+.PHONY : run_and_write.c.i
 
-tests.s: tests.c.s
+run_and_write.s: run_and_write.c.s
 
-.PHONY : tests.s
+.PHONY : run_and_write.s
 
 # target to generate assembly for a file
-tests.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/tests.c.s
-.PHONY : tests.c.s
+run_and_write.c.s:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/run_and_write.c.s
+.PHONY : run_and_write.c.s
+
+test_10000.o: test_10000.c.o
+
+.PHONY : test_10000.o
+
+# target to build an object file
+test_10000.c.o:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/test_10000.c.o
+.PHONY : test_10000.c.o
+
+test_10000.i: test_10000.c.i
+
+.PHONY : test_10000.i
+
+# target to preprocess a source file
+test_10000.c.i:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/test_10000.c.i
+.PHONY : test_10000.c.i
+
+test_10000.s: test_10000.c.s
+
+.PHONY : test_10000.s
+
+# target to generate assembly for a file
+test_10000.c.s:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/test_10000.c.s
+.PHONY : test_10000.c.s
 
 # Help Target
 help:
@@ -222,18 +238,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... iz2"
 	@echo "... edit_cache"
-	@echo "... project"
-	@echo "... test"
-	@echo "... calc.o"
-	@echo "... calc.i"
-	@echo "... calc.s"
+	@echo "... do_statistic.o"
+	@echo "... do_statistic.i"
+	@echo "... do_statistic.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... tests.o"
-	@echo "... tests.i"
-	@echo "... tests.s"
+	@echo "... run_and_write.o"
+	@echo "... run_and_write.i"
+	@echo "... run_and_write.s"
+	@echo "... test_10000.o"
+	@echo "... test_10000.i"
+	@echo "... test_10000.s"
 .PHONY : help
 
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="project" targetName="project" />
+      <config projectName="iz2" targetName="iz2" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73e11cda-201c-43ef-b3ad-24158810816d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-    </list>
+    <list default="true" id="99b4bc92-4cdf-48c2-8456-bad47871d82b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,21 +22,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1S1FnDAWox6b68tBfFMBAXEOG8p" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1STd575udvzvO2OUrkOUHuWFuHv" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -53,7 +39,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="project" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project" TARGET_NAME="project" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project" RUN_TARGET_NAME="project">
+    <configuration name="iz2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="iz2" TARGET_NAME="iz2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="iz2" RUN_TARGET_NAME="iz2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -64,31 +50,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="73e11cda-201c-43ef-b3ad-24158810816d" name="Default Changelist" comment="" />
-      <created>1570723362136</created>
+      <changelist id="99b4bc92-4cdf-48c2-8456-bad47871d82b" name="Default Changelist" comment="" />
+      <created>1571591333439</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570723362136</updated>
-      <workItem from="1570723377232" duration="2274000" />
-      <workItem from="1570736307267" duration="11969000" />
-      <workItem from="1570802710237" duration="4097000" />
+      <updated>1571591333439</updated>
+      <workItem from="1571591338840" duration="4136000" />
+      <workItem from="1571749306134" duration="1662000" />
+      <workItem from="1571751083528" duration="22724000" />
+      <workItem from="1571915996623" duration="14193000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

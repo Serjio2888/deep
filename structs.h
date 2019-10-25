@@ -1,17 +1,21 @@
+#ifndef IZ2_STRUCTS_H
+#define IZ2_STRUCTS_H
 
-typedef struct kvadrat kvadrat;
-struct kavdrat {
-  float side;
-} kv;
+typedef struct Employee {
+    int salary;
+    int position_id;
+    int work_stage;
+    int age;
+    char *name[16];
+    char *surname[15];
+    int sex;
+};
 
-typedef struct circle circle;
-struct circle {
-  float radius;
-} circ;
+typedef struct statistic {
+    int position_id;
+    int work_stage;
+    int sum_salary;
+    int size; //how many people are with the same position and work stage
+};
 
-typedef struct triangle triangle;
-struct triangle {
-  float a_side;
-  float b_side;
-  float c_side;
-} tri;
+#endif //IZ2_STRUCTS_H

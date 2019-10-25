@@ -1,21 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
-project(project C)
+project(iz2 C)
 
-set(CMAKE_C_STANDARD 11)
-set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_STANDARD 99)
 
-
-add_executable(project
+add_executable(iz2
         main.c
-        proj.h
-        calc.c
-        structs.h
-        calc.h
-        tests.h
-        tests.c)
-
-target_link_libraries(project m)
-
-
-
-
+        header.h
+        do_statistic.c
+        test_10000.c run_and_write.c structs.h)

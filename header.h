@@ -17,6 +17,6 @@ struct statistic* calc_stat(struct statistic *stat, struct Employee *emp, int po
 void working_with_statistics_in_many_proc(struct Employee *emp, int max_years, int n);
 void working_with_statistics(struct Employee *emp, int max_years, int n);
 struct Employee* write_employees(int n, int max_years, struct Employee *emp);
-void run_app();
+int run_app();
 
 #endif  // HEADER_H_

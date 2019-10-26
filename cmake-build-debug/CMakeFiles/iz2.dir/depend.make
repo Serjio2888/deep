@@ -17,3 +17,7 @@ CMakeFiles/iz2.dir/test_10000.c.o: ../header.h
 CMakeFiles/iz2.dir/test_10000.c.o: ../structs.h
 CMakeFiles/iz2.dir/test_10000.c.o: ../test_10000.c
 
+CMakeFiles/iz2.dir/work_test.c.o: ../header.h
+CMakeFiles/iz2.dir/work_test.c.o: ../structs.h
+CMakeFiles/iz2.dir/work_test.c.o: ../work_test.c
+

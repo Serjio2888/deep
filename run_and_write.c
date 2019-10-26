@@ -57,7 +57,7 @@ struct Employee* write_employees(int n, int max_years, struct Employee *emp) {
     return emp;
 }
 
-void run_app() {
+int run_app() {
     int n = 0;
     int max_years = 0;
 
@@ -75,6 +75,6 @@ void run_app() {
     } else {
         working_with_statistics_in_one_process(emp, max_years, n);
     }
-
     free(emp);
+    return 0;
 }

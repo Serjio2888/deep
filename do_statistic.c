@@ -38,7 +38,7 @@ void working_with_statistics_in_many_proc(struct Employee *emp, int max_years, i
         }
         ++pos;
     }
-    free(emp);
+    // free(emp);
 }
 
 void working_with_statistics_in_one_process(struct Employee *emp, int max_years, int n) {
@@ -60,6 +60,6 @@ void working_with_statistics_in_one_process(struct Employee *emp, int max_years,
         }
         free(pos_stat);
     }
-    free(emp);
+    // free(emp);
 }
 

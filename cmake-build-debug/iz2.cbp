@@ -93,7 +93,10 @@
 		<Unit filename="/home/sergey/iz2/structs.h">
 			<Option target="iz2"/>
 		</Unit>
-		<Unit filename="/home/sergey/iz2/test_10000.c">
+		<Unit filename="/home/sergey/iz2/test.c">
+			<Option target="iz2"/>
+		</Unit>
+		<Unit filename="/home/sergey/iz2/work_test.c">
 			<Option target="iz2"/>
 		</Unit>
 		<Unit filename="/home/sergey/iz2/CMakeLists.txt">

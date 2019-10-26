@@ -204,32 +204,59 @@ run_and_write.c.s:
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/run_and_write.c.s
 .PHONY : run_and_write.c.s
 
-test_10000.o: test_10000.c.o
+test.o: test.c.o
 
-.PHONY : test_10000.o
+.PHONY : test.o
 
 # target to build an object file
-test_10000.c.o:
-	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/test_10000.c.o
-.PHONY : test_10000.c.o
+test.c.o:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/test.c.o
+.PHONY : test.c.o
 
-test_10000.i: test_10000.c.i
+test.i: test.c.i
 
-.PHONY : test_10000.i
+.PHONY : test.i
 
 # target to preprocess a source file
-test_10000.c.i:
-	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/test_10000.c.i
-.PHONY : test_10000.c.i
+test.c.i:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/test.c.i
+.PHONY : test.c.i
 
-test_10000.s: test_10000.c.s
+test.s: test.c.s
 
-.PHONY : test_10000.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-test_10000.c.s:
-	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/test_10000.c.s
-.PHONY : test_10000.c.s
+test.c.s:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/test.c.s
+.PHONY : test.c.s
+
+work_test.o: work_test.c.o
+
+.PHONY : work_test.o
+
+# target to build an object file
+work_test.c.o:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/work_test.c.o
+.PHONY : work_test.c.o
+
+work_test.i: work_test.c.i
+
+.PHONY : work_test.i
+
+# target to preprocess a source file
+work_test.c.i:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/work_test.c.i
+.PHONY : work_test.c.i
+
+work_test.s: work_test.c.s
+
+.PHONY : work_test.s
+
+# target to generate assembly for a file
+work_test.c.s:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/work_test.c.s
+.PHONY : work_test.c.s
 
 # Help Target
 help:
@@ -249,9 +276,12 @@ help:
 	@echo "... run_and_write.o"
 	@echo "... run_and_write.i"
 	@echo "... run_and_write.s"
-	@echo "... test_10000.o"
-	@echo "... test_10000.i"
-	@echo "... test_10000.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
+	@echo "... work_test.o"
+	@echo "... work_test.i"
+	@echo "... work_test.s"
 .PHONY : help
 
 

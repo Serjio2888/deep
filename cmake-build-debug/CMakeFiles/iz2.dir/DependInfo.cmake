@@ -7,7 +7,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/sergey/iz2/do_statistic.c" "/home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2.dir/do_statistic.c.o"
   "/home/sergey/iz2/main.c" "/home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2.dir/main.c.o"
   "/home/sergey/iz2/run_and_write.c" "/home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2.dir/run_and_write.c.o"
-  "/home/sergey/iz2/test_10000.c" "/home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2.dir/test_10000.c.o"
+  "/home/sergey/iz2/test.c" "/home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2.dir/test.c.o"
+  "/home/sergey/iz2/work_test.c" "/home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2.dir/work_test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

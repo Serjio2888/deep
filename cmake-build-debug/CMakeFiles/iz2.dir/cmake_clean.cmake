@@ -2,8 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/iz2.dir/do_statistic.c.o"
   "CMakeFiles/iz2.dir/main.c.o"
   "CMakeFiles/iz2.dir/run_and_write.c.o"
-  "CMakeFiles/iz2.dir/test.c.o"
-  "CMakeFiles/iz2.dir/work_test.c.o"
   "iz2"
   "iz2.pdb"
 )

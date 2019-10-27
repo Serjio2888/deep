@@ -1,7 +1,7 @@
 #ifndef STRUCTS_H_
 #define STRUCTS_H_
 
-typedef struct Employee {
+struct Employee {
     int salary;
     int position_id;
     int work_stage;
@@ -11,7 +11,7 @@ typedef struct Employee {
     int sex;
 };
 
-typedef struct statistic {
+struct statistic {
     int position_id;
     int work_stage;
     int sum_salary;

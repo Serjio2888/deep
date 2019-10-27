@@ -1,4 +1,5 @@
 /opt/clion-2019.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sergey/iz2
+Gtests version TRUE found at /usr/include (might be set to notfound but that's ok)
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/sergey/iz2/cmake-build-debug

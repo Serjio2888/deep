@@ -9,7 +9,7 @@ compiler: gcc
 
 env:
   global:
-  - CODECOV_TOKEN="58d4334d-2d8d-43b8-b384-2257c6456405"
+  - CODECOV_TOKEN="2507d0ca-a1ef-498b-97ff-c5379b251a23"
 
 install:
   - sudo apt-get update
@@ -33,7 +33,7 @@ script:
   - cmake --build . || travis_terminate 1
   #- gcovr -r . #so here i can see test summary on travis site
   #    - ctest .
-  - valgrind --tool=memcheck --gen-suppressions=all --leak-check=full --leak-resolution=med --track-origins=yes --vgdb=no ./a.out < in.txt
+  - valgrind --tool=memcheck --gen-suppressions=all --leak-check=full --leak-resolution=med --track-origins=yes --vgdb=no ./a.out < in.txt || travis_terminate 1
 
 after_script:
 

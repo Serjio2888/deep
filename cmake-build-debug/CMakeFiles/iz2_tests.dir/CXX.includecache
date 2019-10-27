@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sergey/iz2/header.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+malloc.h
+-
+stdbool.h
+-
+time.h
+-
+wait.h
+-
+structs.h
+/home/sergey/iz2/structs.h
+
+/home/sergey/iz2/structs.h
+
+/home/sergey/iz2/tests/test.cpp
+gtest/gtest.h
+-
+../header.h
+/home/sergey/iz2/header.h
+

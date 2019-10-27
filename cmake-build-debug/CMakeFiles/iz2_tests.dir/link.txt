@@ -1,0 +1,1 @@
+/usr/bin/c++  --coverage -std=c++0x -Wall -Wextra -Werror --pedantic -g   CMakeFiles/iz2_tests.dir/do_statistic.c.o CMakeFiles/iz2_tests.dir/run_and_write.c.o CMakeFiles/iz2_tests.dir/tests/test.cpp.o CMakeFiles/iz2_tests.dir/tests/stress_test.c.o  -o iz2_tests /usr/lib/libgtest.a /usr/lib/libgtest_main.a -lpthread 

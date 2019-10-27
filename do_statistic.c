@@ -26,6 +26,7 @@ void working_with_statistics_in_many_proc(struct Employee *emp, int max_years, i
     int pos = 0;
     while (pos < POSITIONS) {  // итератор идёт по всем позициям
         if (fork() == 0) {
+            printf("forked\n");
             struct statistic *pos_stat = (struct statistic *) malloc(
                     sizeof(struct statistic) * (max_years+1));
             pos_stat = calc_stat(pos_stat, emp, pos, n, max_years);  // считает сатистику по годам
@@ -52,7 +53,7 @@ void working_with_statistics_in_one_process(struct Employee *emp, int max_years,
 
     for (size_t pos = 0; pos < POSITIONS; ++pos) {
         struct statistic *pos_stat = (struct statistic *) malloc(
-                sizeof(struct statistic) * max_years);  // 9 лет существует компания
+                sizeof(struct statistic) * max_years);
         pos_stat = calc_stat(pos_stat, emp, pos, n, max_years);
         puts(positions[pos]);  // position_name
         for (int i = 0; i <= max_years; ++i) {
@@ -60,6 +61,4 @@ void working_with_statistics_in_one_process(struct Employee *emp, int max_years,
         }
         free(pos_stat);
     }
-    // free(emp);
 }
-

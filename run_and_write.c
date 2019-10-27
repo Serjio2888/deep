@@ -1,6 +1,7 @@
 #include "header.h"
 
 struct Employee* write_employees(int n, int max_years, struct Employee *emp) {
+    /// по очереди заполняем данные о сотрудниках
     int salary, pos_id, stage, age;
     char *name[15], *surname[16];
     for (int i = 0; i < n; ++i) {
@@ -15,12 +16,7 @@ struct Employee* write_employees(int n, int max_years, struct Employee *emp) {
         }
 
         printf("what's his position id?\n");
-/*      0 - novice
-        1 - junior
-        2 - middle
-        3 - senior
-        4 - teamlead
-        5 - boss  */
+        printf("0 - novice\n1 - junior\n2 - middle\n3 - senior\n4 - teamlead\n5 - boss\n");
         scanf("%d", &pos_id);
         if ((pos_id >= 0) && (pos_id <= 5)) {
             emp[i].position_id = pos_id;
@@ -65,8 +61,10 @@ int run_app() {
     scanf("%d", &n);
     printf("Сколько лет существует предприятие?\n");
     scanf("%d", &max_years);
+
     struct Employee *emp = (struct Employee*)malloc(sizeof(struct Employee)*n);
     emp = write_employees(n, max_years, emp);
+
     printf("wanna calc fast? (no - 0, yes - anything else)");
     int many_processes;
     scanf("%d", &many_processes);

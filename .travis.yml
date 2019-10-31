@@ -1,0 +1,29 @@
+dist:     xenial
+sudo:     required
+
+language: c
+
+os: linux
+
+compiler: gcc
+
+install:
+  - sudo apt-get update
+  - sudo apt-get install valgrind
+  - sudo apt-get install libstdc++6
+  - sudo apt-get install cmake
+#  - sudo apt-get install gcov
+#  - sudo apt-get install gcovr
+  - sudo apt-get install clang
+  - sudo apt-get install clang-format
+
+script:
+
+  - clang-format -style=Google -i calc.c
+  - clang-format -style=Google -i main.c
+  - clang-format -style=Google -i tests.c
+  - cmake . #-fprofile-arcs -ftest-coverage .
+  - cmake --build .
+  #- gcovr -r . #so here i can see test summary on travis site
+  #    - ctest .
+  - valgrind --tool=memcheck --gen-suppressions=all --leak-check=full --leak-resolution=med --track-origins=yes --vgdb=no ./project < in.txt

@@ -1,1 +1,1 @@
-/usr/bin/cc --coverage -g   CMakeFiles/run_and_write.out.dir/run_and_write.c.o  -o run_and_write.out lib_writer.a /usr/lib/libgtest.a -lpthread 
+/usr/bin/cc --coverage -g   CMakeFiles/run_and_write.out.dir/run_and_write.c.o  -o run_and_write.out -l_writer /usr/lib/libgtest.a -lpthread 

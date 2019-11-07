@@ -79,7 +79,6 @@ run_and_write_out_EXTERNAL_OBJECTS =
 
 run_and_write.out: CMakeFiles/run_and_write.out.dir/run_and_write.c.o
 run_and_write.out: CMakeFiles/run_and_write.out.dir/build.make
-run_and_write.out: lib_writer.a
 run_and_write.out: /usr/lib/libgtest.a
 run_and_write.out: CMakeFiles/run_and_write.out.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sergey/iz2copy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable run_and_write.out"

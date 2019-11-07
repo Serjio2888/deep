@@ -5,5 +5,7 @@ iz2
 
 
 ```
-english
+Bakaev Sergey APO-11
+
+all info here: https://docs.google.com/document/d/1LyaIqBl7dyCFeHZrIEnOAOuzoBRQhipnVFleyb9RGig/edit?usp=sharing
 ```

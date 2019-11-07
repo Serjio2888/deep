@@ -5,22 +5,24 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/sergey/iz2/do_statistic.c" "/home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2_tests.dir/do_statistic.c.o"
-  "/home/sergey/iz2/run_and_write.c" "/home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2_tests.dir/run_and_write.c.o"
-  "/home/sergey/iz2/tests/stress_test.c" "/home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2_tests.dir/tests/stress_test.c.o"
+  "/home/sergey/iz2copy/do_statistic.c" "/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/iz2_tests.dir/do_statistic.c.o"
+  "/home/sergey/iz2copy/run_and_write.c" "/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/iz2_tests.dir/run_and_write.c.o"
+  "/home/sergey/iz2copy/tests/stress_test.c" "/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/iz2_tests.dir/tests/stress_test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../tests"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sergey/iz2/tests/test.cpp" "/home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2_tests.dir/tests/test.cpp.o"
+  "/home/sergey/iz2copy/tests/test.cpp" "/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/iz2_tests.dir/tests/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../tests"
   )
 
 # Targets to which this target links.

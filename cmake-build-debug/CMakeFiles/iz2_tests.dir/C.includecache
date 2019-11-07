@@ -6,3 +6,37 @@
 
 #IncludeRegexTransform: 
 
+/home/sergey/iz2copy/do_statistic.c
+header.h
+/home/sergey/iz2copy/header.h
+
+/home/sergey/iz2copy/header.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+malloc.h
+-
+stdbool.h
+-
+time.h
+-
+wait.h
+-
+structs.h
+/home/sergey/iz2copy/structs.h
+
+/home/sergey/iz2copy/run_and_write.c
+header.h
+/home/sergey/iz2copy/header.h
+
+/home/sergey/iz2copy/structs.h
+
+/home/sergey/iz2copy/tests/stress_test.c
+../header.h
+/home/sergey/iz2copy/header.h
+

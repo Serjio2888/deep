@@ -43,10 +43,10 @@ RM = /opt/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sergey/iz2
+CMAKE_SOURCE_DIR = /home/sergey/iz2copy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sergey/iz2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sergey/iz2copy/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/iz2.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/iz2.dir/flags.make
 
 CMakeFiles/iz2.dir/main.c.o: CMakeFiles/iz2.dir/flags.make
 CMakeFiles/iz2.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergey/iz2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/iz2.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iz2.dir/main.c.o   -c /home/sergey/iz2/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergey/iz2copy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/iz2.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iz2.dir/main.c.o   -c /home/sergey/iz2copy/main.c
 
 CMakeFiles/iz2.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iz2.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sergey/iz2/main.c > CMakeFiles/iz2.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sergey/iz2copy/main.c > CMakeFiles/iz2.dir/main.c.i
 
 CMakeFiles/iz2.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iz2.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sergey/iz2/main.c -o CMakeFiles/iz2.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sergey/iz2copy/main.c -o CMakeFiles/iz2.dir/main.c.s
 
 CMakeFiles/iz2.dir/do_statistic.c.o: CMakeFiles/iz2.dir/flags.make
 CMakeFiles/iz2.dir/do_statistic.c.o: ../do_statistic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergey/iz2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/iz2.dir/do_statistic.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iz2.dir/do_statistic.c.o   -c /home/sergey/iz2/do_statistic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergey/iz2copy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/iz2.dir/do_statistic.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iz2.dir/do_statistic.c.o   -c /home/sergey/iz2copy/do_statistic.c
 
 CMakeFiles/iz2.dir/do_statistic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iz2.dir/do_statistic.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sergey/iz2/do_statistic.c > CMakeFiles/iz2.dir/do_statistic.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sergey/iz2copy/do_statistic.c > CMakeFiles/iz2.dir/do_statistic.c.i
 
 CMakeFiles/iz2.dir/do_statistic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iz2.dir/do_statistic.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sergey/iz2/do_statistic.c -o CMakeFiles/iz2.dir/do_statistic.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sergey/iz2copy/do_statistic.c -o CMakeFiles/iz2.dir/do_statistic.c.s
 
 CMakeFiles/iz2.dir/run_and_write.c.o: CMakeFiles/iz2.dir/flags.make
 CMakeFiles/iz2.dir/run_and_write.c.o: ../run_and_write.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergey/iz2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/iz2.dir/run_and_write.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iz2.dir/run_and_write.c.o   -c /home/sergey/iz2/run_and_write.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergey/iz2copy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/iz2.dir/run_and_write.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iz2.dir/run_and_write.c.o   -c /home/sergey/iz2copy/run_and_write.c
 
 CMakeFiles/iz2.dir/run_and_write.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iz2.dir/run_and_write.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sergey/iz2/run_and_write.c > CMakeFiles/iz2.dir/run_and_write.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sergey/iz2copy/run_and_write.c > CMakeFiles/iz2.dir/run_and_write.c.i
 
 CMakeFiles/iz2.dir/run_and_write.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iz2.dir/run_and_write.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sergey/iz2/run_and_write.c -o CMakeFiles/iz2.dir/run_and_write.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sergey/iz2copy/run_and_write.c -o CMakeFiles/iz2.dir/run_and_write.c.s
 
 # Object files for target iz2
 iz2_OBJECTS = \
@@ -110,7 +110,7 @@ iz2: CMakeFiles/iz2.dir/do_statistic.c.o
 iz2: CMakeFiles/iz2.dir/run_and_write.c.o
 iz2: CMakeFiles/iz2.dir/build.make
 iz2: CMakeFiles/iz2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sergey/iz2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable iz2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sergey/iz2copy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable iz2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iz2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/iz2.dir/clean:
 .PHONY : CMakeFiles/iz2.dir/clean
 
 CMakeFiles/iz2.dir/depend:
-	cd /home/sergey/iz2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sergey/iz2 /home/sergey/iz2 /home/sergey/iz2/cmake-build-debug /home/sergey/iz2/cmake-build-debug /home/sergey/iz2/cmake-build-debug/CMakeFiles/iz2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sergey/iz2copy/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sergey/iz2copy /home/sergey/iz2copy /home/sergey/iz2copy/cmake-build-debug /home/sergey/iz2copy/cmake-build-debug /home/sergey/iz2copy/cmake-build-debug/CMakeFiles/iz2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/iz2.dir/depend
 

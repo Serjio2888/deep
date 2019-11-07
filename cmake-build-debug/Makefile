@@ -48,10 +48,10 @@ RM = /opt/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sergey/iz2
+CMAKE_SOURCE_DIR = /home/sergey/iz2copy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sergey/iz2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sergey/iz2copy/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2/cmake-build-debug/CMakeFiles /home/sergey/iz2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2copy/cmake-build-debug/CMakeFiles /home/sergey/iz2copy/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2copy/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named _statistic
+
+# Build rule for target.
+_statistic: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _statistic
+.PHONY : _statistic
+
+# fast build rule for target.
+_statistic/fast:
+	$(MAKE) -f CMakeFiles/_statistic.dir/build.make CMakeFiles/_statistic.dir/build
+.PHONY : _statistic/fast
+
+#=============================================================================
 # Target rules for targets named iz2
 
 # Build rule for target.
@@ -122,6 +135,19 @@ iz2: cmake_check_build_system
 iz2/fast:
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/build
 .PHONY : iz2/fast
+
+#=============================================================================
+# Target rules for targets named _tester
+
+# Build rule for target.
+_tester: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _tester
+.PHONY : _tester
+
+# fast build rule for target.
+_tester/fast:
+	$(MAKE) -f CMakeFiles/_tester.dir/build.make CMakeFiles/_tester.dir/build
+.PHONY : _tester/fast
 
 #=============================================================================
 # Target rules for targets named iz2_tests
@@ -136,14 +162,69 @@ iz2_tests/fast:
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/build
 .PHONY : iz2_tests/fast
 
+#=============================================================================
+# Target rules for targets named _writer
+
+# Build rule for target.
+_writer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _writer
+.PHONY : _writer
+
+# fast build rule for target.
+_writer/fast:
+	$(MAKE) -f CMakeFiles/_writer.dir/build.make CMakeFiles/_writer.dir/build
+.PHONY : _writer/fast
+
+#=============================================================================
+# Target rules for targets named do_statistic.out
+
+# Build rule for target.
+do_statistic.out: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 do_statistic.out
+.PHONY : do_statistic.out
+
+# fast build rule for target.
+do_statistic.out/fast:
+	$(MAKE) -f CMakeFiles/do_statistic.out.dir/build.make CMakeFiles/do_statistic.out.dir/build
+.PHONY : do_statistic.out/fast
+
+#=============================================================================
+# Target rules for targets named run_and_write.out
+
+# Build rule for target.
+run_and_write.out: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_and_write.out
+.PHONY : run_and_write.out
+
+# fast build rule for target.
+run_and_write.out/fast:
+	$(MAKE) -f CMakeFiles/run_and_write.out.dir/build.make CMakeFiles/run_and_write.out.dir/build
+.PHONY : run_and_write.out/fast
+
+#=============================================================================
+# Target rules for targets named tester.out
+
+# Build rule for target.
+tester.out: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tester.out
+.PHONY : tester.out
+
+# fast build rule for target.
+tester.out/fast:
+	$(MAKE) -f CMakeFiles/tester.out.dir/build.make CMakeFiles/tester.out.dir/build
+.PHONY : tester.out/fast
+
 do_statistic.o: do_statistic.c.o
 
 .PHONY : do_statistic.o
 
 # target to build an object file
 do_statistic.c.o:
+	$(MAKE) -f CMakeFiles/_statistic.dir/build.make CMakeFiles/_statistic.dir/do_statistic.c.o
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/do_statistic.c.o
+	$(MAKE) -f CMakeFiles/_tester.dir/build.make CMakeFiles/_tester.dir/do_statistic.c.o
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/do_statistic.c.o
+	$(MAKE) -f CMakeFiles/do_statistic.out.dir/build.make CMakeFiles/do_statistic.out.dir/do_statistic.c.o
 .PHONY : do_statistic.c.o
 
 do_statistic.i: do_statistic.c.i
@@ -152,8 +233,11 @@ do_statistic.i: do_statistic.c.i
 
 # target to preprocess a source file
 do_statistic.c.i:
+	$(MAKE) -f CMakeFiles/_statistic.dir/build.make CMakeFiles/_statistic.dir/do_statistic.c.i
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/do_statistic.c.i
+	$(MAKE) -f CMakeFiles/_tester.dir/build.make CMakeFiles/_tester.dir/do_statistic.c.i
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/do_statistic.c.i
+	$(MAKE) -f CMakeFiles/do_statistic.out.dir/build.make CMakeFiles/do_statistic.out.dir/do_statistic.c.i
 .PHONY : do_statistic.c.i
 
 do_statistic.s: do_statistic.c.s
@@ -162,8 +246,11 @@ do_statistic.s: do_statistic.c.s
 
 # target to generate assembly for a file
 do_statistic.c.s:
+	$(MAKE) -f CMakeFiles/_statistic.dir/build.make CMakeFiles/_statistic.dir/do_statistic.c.s
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/do_statistic.c.s
+	$(MAKE) -f CMakeFiles/_tester.dir/build.make CMakeFiles/_tester.dir/do_statistic.c.s
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/do_statistic.c.s
+	$(MAKE) -f CMakeFiles/do_statistic.out.dir/build.make CMakeFiles/do_statistic.out.dir/do_statistic.c.s
 .PHONY : do_statistic.c.s
 
 main.o: main.c.o
@@ -201,6 +288,8 @@ run_and_write.o: run_and_write.c.o
 run_and_write.c.o:
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/run_and_write.c.o
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/run_and_write.c.o
+	$(MAKE) -f CMakeFiles/_writer.dir/build.make CMakeFiles/_writer.dir/run_and_write.c.o
+	$(MAKE) -f CMakeFiles/run_and_write.out.dir/build.make CMakeFiles/run_and_write.out.dir/run_and_write.c.o
 .PHONY : run_and_write.c.o
 
 run_and_write.i: run_and_write.c.i
@@ -211,6 +300,8 @@ run_and_write.i: run_and_write.c.i
 run_and_write.c.i:
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/run_and_write.c.i
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/run_and_write.c.i
+	$(MAKE) -f CMakeFiles/_writer.dir/build.make CMakeFiles/_writer.dir/run_and_write.c.i
+	$(MAKE) -f CMakeFiles/run_and_write.out.dir/build.make CMakeFiles/run_and_write.out.dir/run_and_write.c.i
 .PHONY : run_and_write.c.i
 
 run_and_write.s: run_and_write.c.s
@@ -221,6 +312,8 @@ run_and_write.s: run_and_write.c.s
 run_and_write.c.s:
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/run_and_write.c.s
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/run_and_write.c.s
+	$(MAKE) -f CMakeFiles/_writer.dir/build.make CMakeFiles/_writer.dir/run_and_write.c.s
+	$(MAKE) -f CMakeFiles/run_and_write.out.dir/build.make CMakeFiles/run_and_write.out.dir/run_and_write.c.s
 .PHONY : run_and_write.c.s
 
 tests/stress_test.o: tests/stress_test.c.o
@@ -229,6 +322,7 @@ tests/stress_test.o: tests/stress_test.c.o
 
 # target to build an object file
 tests/stress_test.c.o:
+	$(MAKE) -f CMakeFiles/_tester.dir/build.make CMakeFiles/_tester.dir/tests/stress_test.c.o
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/tests/stress_test.c.o
 .PHONY : tests/stress_test.c.o
 
@@ -238,6 +332,7 @@ tests/stress_test.i: tests/stress_test.c.i
 
 # target to preprocess a source file
 tests/stress_test.c.i:
+	$(MAKE) -f CMakeFiles/_tester.dir/build.make CMakeFiles/_tester.dir/tests/stress_test.c.i
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/tests/stress_test.c.i
 .PHONY : tests/stress_test.c.i
 
@@ -247,6 +342,7 @@ tests/stress_test.s: tests/stress_test.c.s
 
 # target to generate assembly for a file
 tests/stress_test.c.s:
+	$(MAKE) -f CMakeFiles/_tester.dir/build.make CMakeFiles/_tester.dir/tests/stress_test.c.s
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/tests/stress_test.c.s
 .PHONY : tests/stress_test.c.s
 
@@ -256,7 +352,9 @@ tests/test.o: tests/test.cpp.o
 
 # target to build an object file
 tests/test.cpp.o:
+	$(MAKE) -f CMakeFiles/_tester.dir/build.make CMakeFiles/_tester.dir/tests/test.cpp.o
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/tests/test.cpp.o
+	$(MAKE) -f CMakeFiles/tester.out.dir/build.make CMakeFiles/tester.out.dir/tests/test.cpp.o
 .PHONY : tests/test.cpp.o
 
 tests/test.i: tests/test.cpp.i
@@ -265,7 +363,9 @@ tests/test.i: tests/test.cpp.i
 
 # target to preprocess a source file
 tests/test.cpp.i:
+	$(MAKE) -f CMakeFiles/_tester.dir/build.make CMakeFiles/_tester.dir/tests/test.cpp.i
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/tests/test.cpp.i
+	$(MAKE) -f CMakeFiles/tester.out.dir/build.make CMakeFiles/tester.out.dir/tests/test.cpp.i
 .PHONY : tests/test.cpp.i
 
 tests/test.s: tests/test.cpp.s
@@ -274,7 +374,9 @@ tests/test.s: tests/test.cpp.s
 
 # target to generate assembly for a file
 tests/test.cpp.s:
+	$(MAKE) -f CMakeFiles/_tester.dir/build.make CMakeFiles/_tester.dir/tests/test.cpp.s
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/tests/test.cpp.s
+	$(MAKE) -f CMakeFiles/tester.out.dir/build.make CMakeFiles/tester.out.dir/tests/test.cpp.s
 .PHONY : tests/test.cpp.s
 
 # Help Target
@@ -284,9 +386,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... _statistic"
 	@echo "... edit_cache"
 	@echo "... iz2"
+	@echo "... _tester"
 	@echo "... iz2_tests"
+	@echo "... _writer"
+	@echo "... do_statistic.out"
+	@echo "... run_and_write.out"
+	@echo "... tester.out"
 	@echo "... do_statistic.o"
 	@echo "... do_statistic.i"
 	@echo "... do_statistic.s"

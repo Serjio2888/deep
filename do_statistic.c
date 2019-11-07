@@ -14,23 +14,16 @@ struct statistic* calc_stat(struct statistic *stat, struct Employee *emp, int po
     return stat;
 }
 
-void working_with_statistics_in_many_proc(struct Employee *emp, int max_years, int n) {
-    char **positions[POSITIONS][9];
-    snprintf(positions[0], sizeof(positions[0]),  "%s", "novice");
-    snprintf(positions[1], sizeof(positions[1]),  "%s", "junior");
-    snprintf(positions[2], sizeof(positions[2]),  "%s", "middle");
-    snprintf(positions[3], sizeof(positions[3]),  "%s", "senior");
-    snprintf(positions[4], sizeof(positions[4]),  "%s", "teamlead");
-    snprintf(positions[5], sizeof(positions[5]),  "%s", "boss");
-
+void working_with_statistics_in_many_proc(struct Employee *emp, int max_years, int n) {;
     int pos = 0;
+    int pid, status;
     while (pos < POSITIONS) {  // итератор идёт по всем позициям
-        if (fork() == 0) {
-            printf("forked\n");
+        pid = fork();
+        if (pid == 0) {
             struct statistic *pos_stat = (struct statistic *) malloc(
                     sizeof(struct statistic) * (max_years+1));
             pos_stat = calc_stat(pos_stat, emp, pos, n, max_years);  // считает сатистику по годам
-            puts(positions[pos]);  // position_name
+            print_employee_type(pos);
             for (int i = 0; i <= max_years; ++i) {  // выводит статистику
                 printf("years: %d   middle_salary: %d\n", i, pos_stat[i].sum_salary / pos_stat[i].size);
             }
@@ -39,26 +32,41 @@ void working_with_statistics_in_many_proc(struct Employee *emp, int max_years, i
         }
         ++pos;
     }
-    // free(emp);
+    waitpid(pid, &status, 0);
 }
 
 void working_with_statistics_in_one_process(struct Employee *emp, int max_years, int n) {
-    char **positions[POSITIONS][9];
-    snprintf(positions[0], sizeof(positions[0]),  "%s", "novice");
-    snprintf(positions[1], sizeof(positions[1]),  "%s", "junior");
-    snprintf(positions[2], sizeof(positions[2]),  "%s", "middle");
-    snprintf(positions[3], sizeof(positions[3]),  "%s", "senior");
-    snprintf(positions[4], sizeof(positions[4]),  "%s", "teamlead");
-    snprintf(positions[5], sizeof(positions[5]),  "%s", "boss");
-
     for (size_t pos = 0; pos < POSITIONS; ++pos) {
         struct statistic *pos_stat = (struct statistic *) malloc(
                 sizeof(struct statistic) * max_years);
         pos_stat = calc_stat(pos_stat, emp, pos, n, max_years);
-        puts(positions[pos]);  // position_name
+        print_employee_type(pos);
         for (int i = 0; i <= max_years; ++i) {
             printf("years: %d   middle_salary: %d\n", i, pos_stat[i].sum_salary / pos_stat[i].size);
         }
         free(pos_stat);
+    }
+}
+
+void print_employee_type(int pos) {
+    switch (pos) {
+        case 0:
+            puts("novice");
+            break;
+        case 1:
+            puts("junior");
+            break;
+        case 2:
+            puts("middle");
+            break;
+        case 3:
+            puts("senior");
+            break;
+        case 4:
+            puts("teamlead");
+            break;
+        case 5:
+            puts("boss");
+            break;
     }
 }

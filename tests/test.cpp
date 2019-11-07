@@ -1,8 +1,11 @@
 #include <gtest/gtest.h>
+#include <cstdlib>
 
 extern "C" {
     #include "../header.h"
 }
+
+using namespace std;
 
 class TestStress : public ::testing::Test {
     protected:
@@ -19,17 +22,6 @@ class TestStress : public ::testing::Test {
             }
 };
 
-TEST_F(TestStress, working_with_statistics_in_one_process) {
-    /// do test
-    clock_t begin = clock();
-    for (size_t i = 0; i < 5; ++i){
-        working_with_statistics_in_one_process(empl, 8, n);
-    }
-    clock_t end = clock();
-    double time_spent = (double)(end - begin) / CLOCKS_PER_SEC / 5; // average time
-    ASSERT_GE(time_spent, 0.002);
-
-}
 
 TEST_F(TestStress, working_with_statistics_in_many_proc) {
     /// do test
@@ -40,6 +32,17 @@ TEST_F(TestStress, working_with_statistics_in_many_proc) {
     printf("average %f\n", time_spent);
     ASSERT_GE(time_spent, 0.002);
     free(empl);
+}
+
+TEST_F(TestStress, working_with_statistics_in_one_process) {
+    /// do test
+    clock_t begin = clock();
+    for (size_t i = 0; i < 5; ++i){
+        working_with_statistics_in_one_process(empl, 8, n);
+    }
+    clock_t end = clock();
+    double time_spent = (double)(end - begin) / CLOCKS_PER_SEC / 5; // average time
+    ASSERT_GE(time_spent, 0.002);
 }
 
 

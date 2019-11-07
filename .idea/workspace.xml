@@ -20,19 +20,7 @@
   <component name="ChangeListManager">
     <list default="true" id="99b4bc92-4cdf-48c2-8456-bad47871d82b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_tester.dir/do_statistic.c.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_tester.dir/do_statistic.c.gcda" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_tester.dir/tests/stress_test.c.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_tester.dir/tests/stress_test.c.gcda" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_tester.dir/tests/test.cpp.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_tester.dir/tests/test.cpp.gcno" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_tester.dir/tests/test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_tester.dir/tests/test.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tester.out.dir/tests/test.cpp.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tester.out.dir/tests/test.cpp.gcda" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tester.out.dir/tests/test.cpp.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tester.out.dir/tests/test.cpp.gcno" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tester.out.dir/tests/test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tester.out.dir/tests/test.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib_tester.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib_tester.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tester.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tester.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/do_statistic.c" beforeDir="false" afterPath="$PROJECT_DIR$/do_statistic.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linters/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/linters/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +142,7 @@
       <workItem from="1573141342422" duration="7964000" />
       <workItem from="1573150350118" duration="3337000" />
       <workItem from="1573158007719" duration="1405000" />
-      <workItem from="1573160885608" duration="373000" />
+      <workItem from="1573160885608" duration="742000" />
     </task>
     <servers />
   </component>

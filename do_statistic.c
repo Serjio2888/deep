@@ -14,9 +14,10 @@ struct statistic* calc_stat(struct statistic *stat, struct Employee *emp, int po
     return stat;
 }
 
-void working_with_statistics_in_many_proc(struct Employee *emp, int max_years, int n) {;
+void working_with_statistics_in_many_proc(struct Employee *emp, int max_years, int n) {
     int pos = 0;
-    int pid, status;
+    int pid;
+    int status;
     while (pos < POSITIONS) {  // итератор идёт по всем позициям
         pid = fork();
         if (pid == 0) {

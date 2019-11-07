@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/sergey/iz2copy/do_statistic.c" "/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/_statistic.dir/do_statistic.c.o"
+  "/home/sergey/iz2copy/main.c" "/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/_statistic.dir/main.c.o"
+  "/home/sergey/iz2copy/run_and_write.c" "/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/_statistic.dir/run_and_write.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

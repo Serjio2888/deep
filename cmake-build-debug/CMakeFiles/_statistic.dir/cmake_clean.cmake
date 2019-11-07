@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/_statistic.dir/do_statistic.c.o"
+  "CMakeFiles/_statistic.dir/main.c.o"
+  "CMakeFiles/_statistic.dir/run_and_write.c.o"
   "lib_statistic.pdb"
   "lib_statistic.so"
 )

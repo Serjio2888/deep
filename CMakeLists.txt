@@ -20,15 +20,19 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 include_directories(tests)
 
-set(LIB_STATISTIC
-        do_statistic.c)
-add_library(_statistic SHARED ${LIB_STATISTIC})
 
 set(LIB_TESTER
         tests/stress_test.c
         tests/test.cpp
         do_statistic.c)
 add_library(_tester STATIC ${LIB_TESTER})
+
+set(LIB_STATISTIC
+        run_and_write.c
+        main.c
+        do_statistic.c)
+add_library(_statistic SHARED ${LIB_STATISTIC})
+
 
 # Set GTEST_INCLUDE_DIRS and GTEST_LIBRARIES
 find_package(GTest REQUIRED)

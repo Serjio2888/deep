@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC --coverage -g  -shared -Wl,-soname,lib_statistic.so -o lib_statistic.so CMakeFiles/_statistic.dir/do_statistic.c.o 
+/usr/bin/cc -fPIC --coverage -g  -shared -Wl,-soname,lib_statistic.so -o lib_statistic.so CMakeFiles/_statistic.dir/run_and_write.c.o CMakeFiles/_statistic.dir/main.c.o CMakeFiles/_statistic.dir/do_statistic.c.o 

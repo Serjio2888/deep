@@ -5,3 +5,11 @@ CMakeFiles/_statistic.dir/do_statistic.c.o
  /home/sergey/iz2copy/do_statistic.c
  /home/sergey/iz2copy/header.h
  /home/sergey/iz2copy/structs.h
+CMakeFiles/_statistic.dir/main.c.o
+ /home/sergey/iz2copy/header.h
+ /home/sergey/iz2copy/main.c
+ /home/sergey/iz2copy/structs.h
+CMakeFiles/_statistic.dir/run_and_write.c.o
+ /home/sergey/iz2copy/header.h
+ /home/sergey/iz2copy/run_and_write.c
+ /home/sergey/iz2copy/structs.h

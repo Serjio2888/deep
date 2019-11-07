@@ -338,9 +338,11 @@
 			<Option target="iz2"/>
 		</Unit>
 		<Unit filename="/home/sergey/iz2copy/main.c">
+			<Option target="_statistic"/>
 			<Option target="iz2"/>
 		</Unit>
 		<Unit filename="/home/sergey/iz2copy/run_and_write.c">
+			<Option target="_statistic"/>
 			<Option target="iz2_tests"/>
 			<Option target="iz2"/>
 		</Unit>

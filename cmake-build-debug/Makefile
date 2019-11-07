@@ -233,6 +233,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
+	$(MAKE) -f CMakeFiles/_statistic.dir/build.make CMakeFiles/_statistic.dir/main.c.o
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/main.c.o
 .PHONY : main.c.o
 
@@ -242,6 +243,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
+	$(MAKE) -f CMakeFiles/_statistic.dir/build.make CMakeFiles/_statistic.dir/main.c.i
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/main.c.i
 .PHONY : main.c.i
 
@@ -251,6 +253,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
+	$(MAKE) -f CMakeFiles/_statistic.dir/build.make CMakeFiles/_statistic.dir/main.c.s
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/main.c.s
 .PHONY : main.c.s
 
@@ -260,6 +263,7 @@ run_and_write.o: run_and_write.c.o
 
 # target to build an object file
 run_and_write.c.o:
+	$(MAKE) -f CMakeFiles/_statistic.dir/build.make CMakeFiles/_statistic.dir/run_and_write.c.o
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/run_and_write.c.o
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/run_and_write.c.o
 .PHONY : run_and_write.c.o
@@ -270,6 +274,7 @@ run_and_write.i: run_and_write.c.i
 
 # target to preprocess a source file
 run_and_write.c.i:
+	$(MAKE) -f CMakeFiles/_statistic.dir/build.make CMakeFiles/_statistic.dir/run_and_write.c.i
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/run_and_write.c.i
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/run_and_write.c.i
 .PHONY : run_and_write.c.i
@@ -280,6 +285,7 @@ run_and_write.s: run_and_write.c.s
 
 # target to generate assembly for a file
 run_and_write.c.s:
+	$(MAKE) -f CMakeFiles/_statistic.dir/build.make CMakeFiles/_statistic.dir/run_and_write.c.s
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/run_and_write.c.s
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/run_and_write.c.s
 .PHONY : run_and_write.c.s

@@ -1,0 +1,1 @@
+/usr/bin/c++  --coverage -std=c++0x -Wall -Wextra -Werror --pedantic -g   CMakeFiles/tester.out.dir/tests/test.cpp.o  -o tester.out lib_tester.a /usr/lib/libgtest.a -lpthread 

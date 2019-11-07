@@ -6,8 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/home/sergey/iz2/header.h
+/home/sergey/iz2copy/do_statistic.c
+header.h
+/home/sergey/iz2copy/header.h
+
+/home/sergey/iz2copy/header.h
 stdio.h
+-
+stdlib.h
 -
 unistd.h
 -
@@ -19,12 +25,18 @@ stdbool.h
 -
 time.h
 -
+wait.h
+-
 structs.h
-/home/sergey/iz2/structs.h
+/home/sergey/iz2copy/structs.h
 
-/home/sergey/iz2/run_and_write.c
+/home/sergey/iz2copy/main.c
 header.h
-/home/sergey/iz2/header.h
+/home/sergey/iz2copy/header.h
 
-/home/sergey/iz2/structs.h
+/home/sergey/iz2copy/run_and_write.c
+header.h
+/home/sergey/iz2copy/header.h
+
+/home/sergey/iz2copy/structs.h
 

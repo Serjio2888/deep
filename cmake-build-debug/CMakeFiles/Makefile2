@@ -44,23 +44,31 @@ RM = /opt/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sergey/iz2
+CMAKE_SOURCE_DIR = /home/sergey/iz2copy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sergey/iz2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sergey/iz2copy/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/iz2.dir/all
+all: CMakeFiles/_statistic.dir/all
 all: CMakeFiles/iz2_tests.dir/all
+all: CMakeFiles/do_statistic.out.dir/all
+all: CMakeFiles/tester.out.dir/all
+all: CMakeFiles/_tester.dir/all
+all: CMakeFiles/iz2.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/iz2.dir/clean
+clean: CMakeFiles/_statistic.dir/clean
 clean: CMakeFiles/iz2_tests.dir/clean
+clean: CMakeFiles/do_statistic.out.dir/clean
+clean: CMakeFiles/tester.out.dir/clean
+clean: CMakeFiles/_tester.dir/clean
+clean: CMakeFiles/iz2.dir/clean
 
 .PHONY : clean
 
@@ -70,31 +78,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/iz2.dir
+# Target rules for target CMakeFiles/_statistic.dir
 
 # All Build rule for target.
-CMakeFiles/iz2.dir/all:
-	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/depend
-	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergey/iz2/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target iz2"
-.PHONY : CMakeFiles/iz2.dir/all
+CMakeFiles/_statistic.dir/all:
+	$(MAKE) -f CMakeFiles/_statistic.dir/build.make CMakeFiles/_statistic.dir/depend
+	$(MAKE) -f CMakeFiles/_statistic.dir/build.make CMakeFiles/_statistic.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergey/iz2copy/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target _statistic"
+.PHONY : CMakeFiles/_statistic.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/iz2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/iz2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/iz2.dir/rule
+CMakeFiles/_statistic.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2copy/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_statistic.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2copy/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/_statistic.dir/rule
 
 # Convenience name for target.
-iz2: CMakeFiles/iz2.dir/rule
+_statistic: CMakeFiles/_statistic.dir/rule
 
-.PHONY : iz2
+.PHONY : _statistic
 
 # clean rule for target.
-CMakeFiles/iz2.dir/clean:
-	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/clean
-.PHONY : CMakeFiles/iz2.dir/clean
+CMakeFiles/_statistic.dir/clean:
+	$(MAKE) -f CMakeFiles/_statistic.dir/build.make CMakeFiles/_statistic.dir/clean
+.PHONY : CMakeFiles/_statistic.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/iz2_tests.dir
@@ -103,14 +111,14 @@ CMakeFiles/iz2.dir/clean:
 CMakeFiles/iz2_tests.dir/all:
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/depend
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergey/iz2/cmake-build-debug/CMakeFiles --progress-num=5,6,7,8,9 "Built target iz2_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergey/iz2copy/cmake-build-debug/CMakeFiles --progress-num=15,16,17,18,19 "Built target iz2_tests"
 .PHONY : CMakeFiles/iz2_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/iz2_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2copy/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/iz2_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2copy/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/iz2_tests.dir/rule
 
 # Convenience name for target.
@@ -122,6 +130,114 @@ iz2_tests: CMakeFiles/iz2_tests.dir/rule
 CMakeFiles/iz2_tests.dir/clean:
 	$(MAKE) -f CMakeFiles/iz2_tests.dir/build.make CMakeFiles/iz2_tests.dir/clean
 .PHONY : CMakeFiles/iz2_tests.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/do_statistic.out.dir
+
+# All Build rule for target.
+CMakeFiles/do_statistic.out.dir/all: CMakeFiles/_statistic.dir/all
+	$(MAKE) -f CMakeFiles/do_statistic.out.dir/build.make CMakeFiles/do_statistic.out.dir/depend
+	$(MAKE) -f CMakeFiles/do_statistic.out.dir/build.make CMakeFiles/do_statistic.out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergey/iz2copy/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target do_statistic.out"
+.PHONY : CMakeFiles/do_statistic.out.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/do_statistic.out.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2copy/cmake-build-debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/do_statistic.out.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2copy/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/do_statistic.out.dir/rule
+
+# Convenience name for target.
+do_statistic.out: CMakeFiles/do_statistic.out.dir/rule
+
+.PHONY : do_statistic.out
+
+# clean rule for target.
+CMakeFiles/do_statistic.out.dir/clean:
+	$(MAKE) -f CMakeFiles/do_statistic.out.dir/build.make CMakeFiles/do_statistic.out.dir/clean
+.PHONY : CMakeFiles/do_statistic.out.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tester.out.dir
+
+# All Build rule for target.
+CMakeFiles/tester.out.dir/all: CMakeFiles/_tester.dir/all
+	$(MAKE) -f CMakeFiles/tester.out.dir/build.make CMakeFiles/tester.out.dir/depend
+	$(MAKE) -f CMakeFiles/tester.out.dir/build.make CMakeFiles/tester.out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergey/iz2copy/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target tester.out"
+.PHONY : CMakeFiles/tester.out.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tester.out.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2copy/cmake-build-debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tester.out.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2copy/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tester.out.dir/rule
+
+# Convenience name for target.
+tester.out: CMakeFiles/tester.out.dir/rule
+
+.PHONY : tester.out
+
+# clean rule for target.
+CMakeFiles/tester.out.dir/clean:
+	$(MAKE) -f CMakeFiles/tester.out.dir/build.make CMakeFiles/tester.out.dir/clean
+.PHONY : CMakeFiles/tester.out.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/_tester.dir
+
+# All Build rule for target.
+CMakeFiles/_tester.dir/all:
+	$(MAKE) -f CMakeFiles/_tester.dir/build.make CMakeFiles/_tester.dir/depend
+	$(MAKE) -f CMakeFiles/_tester.dir/build.make CMakeFiles/_tester.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergey/iz2copy/cmake-build-debug/CMakeFiles --progress-num=5,6,7,8 "Built target _tester"
+.PHONY : CMakeFiles/_tester.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/_tester.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2copy/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_tester.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2copy/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/_tester.dir/rule
+
+# Convenience name for target.
+_tester: CMakeFiles/_tester.dir/rule
+
+.PHONY : _tester
+
+# clean rule for target.
+CMakeFiles/_tester.dir/clean:
+	$(MAKE) -f CMakeFiles/_tester.dir/build.make CMakeFiles/_tester.dir/clean
+.PHONY : CMakeFiles/_tester.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/iz2.dir
+
+# All Build rule for target.
+CMakeFiles/iz2.dir/all:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/depend
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergey/iz2copy/cmake-build-debug/CMakeFiles --progress-num=11,12,13,14 "Built target iz2"
+.PHONY : CMakeFiles/iz2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/iz2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2copy/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/iz2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/iz2copy/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/iz2.dir/rule
+
+# Convenience name for target.
+iz2: CMakeFiles/iz2.dir/rule
+
+.PHONY : iz2
+
+# clean rule for target.
+CMakeFiles/iz2.dir/clean:
+	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/clean
+.PHONY : CMakeFiles/iz2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

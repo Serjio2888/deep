@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/do_statistic.out.dir/do_statistic.c.o  -o do_statistic.out -Wl,-rpath,/home/sergey/iz2copy/cmake-build-debug lib_statistic.so /usr/lib/libgtest.a -lpthread 

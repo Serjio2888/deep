@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/iz2.dir/main.c.o CMakeFiles/iz2.dir/do_statistic.c.o CMakeFiles/iz2.dir/run_and_write.c.o  -o iz2 

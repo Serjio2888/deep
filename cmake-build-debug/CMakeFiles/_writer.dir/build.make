@@ -70,17 +70,32 @@ CMakeFiles/_writer.dir/run_and_write.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/_writer.dir/run_and_write.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sergey/iz2copy/run_and_write.c -o CMakeFiles/_writer.dir/run_and_write.c.s
 
+CMakeFiles/_writer.dir/do_statistic.c.o: CMakeFiles/_writer.dir/flags.make
+CMakeFiles/_writer.dir/do_statistic.c.o: ../do_statistic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergey/iz2copy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/_writer.dir/do_statistic.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/_writer.dir/do_statistic.c.o   -c /home/sergey/iz2copy/do_statistic.c
+
+CMakeFiles/_writer.dir/do_statistic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/_writer.dir/do_statistic.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sergey/iz2copy/do_statistic.c > CMakeFiles/_writer.dir/do_statistic.c.i
+
+CMakeFiles/_writer.dir/do_statistic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/_writer.dir/do_statistic.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sergey/iz2copy/do_statistic.c -o CMakeFiles/_writer.dir/do_statistic.c.s
+
 # Object files for target _writer
 _writer_OBJECTS = \
-"CMakeFiles/_writer.dir/run_and_write.c.o"
+"CMakeFiles/_writer.dir/run_and_write.c.o" \
+"CMakeFiles/_writer.dir/do_statistic.c.o"
 
 # External object files for target _writer
 _writer_EXTERNAL_OBJECTS =
 
 lib_writer.a: CMakeFiles/_writer.dir/run_and_write.c.o
+lib_writer.a: CMakeFiles/_writer.dir/do_statistic.c.o
 lib_writer.a: CMakeFiles/_writer.dir/build.make
 lib_writer.a: CMakeFiles/_writer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sergey/iz2copy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library lib_writer.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sergey/iz2copy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library lib_writer.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/_writer.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/_writer.dir/link.txt --verbose=$(VERBOSE)
 

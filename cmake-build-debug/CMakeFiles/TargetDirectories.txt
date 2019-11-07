@@ -1,10 +1,10 @@
 /home/sergey/iz2copy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/_statistic.dir
-/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/iz2.dir
-/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/_tester.dir
 /home/sergey/iz2copy/cmake-build-debug/CMakeFiles/iz2_tests.dir
 /home/sergey/iz2copy/cmake-build-debug/CMakeFiles/_writer.dir
 /home/sergey/iz2copy/cmake-build-debug/CMakeFiles/do_statistic.out.dir
 /home/sergey/iz2copy/cmake-build-debug/CMakeFiles/run_and_write.out.dir
+/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/_statistic.dir
+/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/iz2.dir
+/home/sergey/iz2copy/cmake-build-debug/CMakeFiles/_tester.dir
 /home/sergey/iz2copy/cmake-build-debug/CMakeFiles/tester.out.dir

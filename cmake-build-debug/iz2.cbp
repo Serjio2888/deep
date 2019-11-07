@@ -27,160 +27,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="_statistic">
-				<Option output="/home/sergey/iz2copy/cmake-build-debug/lib_statistic.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="3"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/sergey/iz2copy/tests"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 _statistic"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="_statistic/fast">
-				<Option output="/home/sergey/iz2copy/cmake-build-debug/lib_statistic.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="3"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/sergey/iz2copy/tests"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 _statistic/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="iz2">
-				<Option output="/home/sergey/iz2copy/cmake-build-debug/iz2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/sergey/iz2copy/tests"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 iz2"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="iz2/fast">
-				<Option output="/home/sergey/iz2copy/cmake-build-debug/iz2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/sergey/iz2copy/tests"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 iz2/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="_tester">
-				<Option output="/home/sergey/iz2copy/cmake-build-debug/lib_tester.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/sergey/iz2copy/tests"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 _tester"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="_tester/fast">
-				<Option output="/home/sergey/iz2copy/cmake-build-debug/lib_tester.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/sergey/iz2copy/tests"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 _tester/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="iz2_tests">
 				<Option output="/home/sergey/iz2copy/cmake-build-debug/iz2_tests" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
@@ -373,6 +219,160 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="_statistic">
+				<Option output="/home/sergey/iz2copy/cmake-build-debug/lib_statistic.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/iz2copy/tests"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 _statistic"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_statistic/fast">
+				<Option output="/home/sergey/iz2copy/cmake-build-debug/lib_statistic.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/iz2copy/tests"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 _statistic/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iz2">
+				<Option output="/home/sergey/iz2copy/cmake-build-debug/iz2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/iz2copy/tests"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 iz2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iz2/fast">
+				<Option output="/home/sergey/iz2copy/cmake-build-debug/iz2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/iz2copy/tests"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 iz2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_tester">
+				<Option output="/home/sergey/iz2copy/cmake-build-debug/lib_tester.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/iz2copy/tests"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 _tester"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_tester/fast">
+				<Option output="/home/sergey/iz2copy/cmake-build-debug/lib_tester.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/iz2copy/tests"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 _tester/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/iz2copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="tester.out">
 				<Option output="/home/sergey/iz2copy/cmake-build-debug/tester.out" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/sergey/iz2copy/cmake-build-debug"/>
@@ -423,36 +423,37 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/sergey/iz2copy/do_statistic.c">
+			<Option target="iz2_tests"/>
+			<Option target="_writer"/>
+			<Option target="do_statistic.out"/>
 			<Option target="_statistic"/>
 			<Option target="iz2"/>
 			<Option target="_tester"/>
-			<Option target="iz2_tests"/>
-			<Option target="do_statistic.out"/>
 		</Unit>
 		<Unit filename="/home/sergey/iz2copy/header.h">
-			<Option target="iz2"/>
 			<Option target="iz2_tests"/>
+			<Option target="iz2"/>
 		</Unit>
 		<Unit filename="/home/sergey/iz2copy/main.c">
 			<Option target="iz2"/>
 		</Unit>
 		<Unit filename="/home/sergey/iz2copy/run_and_write.c">
-			<Option target="iz2"/>
 			<Option target="iz2_tests"/>
 			<Option target="_writer"/>
 			<Option target="run_and_write.out"/>
+			<Option target="iz2"/>
 		</Unit>
 		<Unit filename="/home/sergey/iz2copy/structs.h">
-			<Option target="iz2"/>
 			<Option target="iz2_tests"/>
+			<Option target="iz2"/>
 		</Unit>
 		<Unit filename="/home/sergey/iz2copy/tests/stress_test.c">
-			<Option target="_tester"/>
 			<Option target="iz2_tests"/>
+			<Option target="_tester"/>
 		</Unit>
 		<Unit filename="/home/sergey/iz2copy/tests/test.cpp">
-			<Option target="_tester"/>
 			<Option target="iz2_tests"/>
+			<Option target="_tester"/>
 			<Option target="tester.out"/>
 		</Unit>
 		<Unit filename="/home/sergey/iz2copy/CMakeLists.txt">

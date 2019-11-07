@@ -20,13 +20,14 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 include_directories(tests)
 
-set(LIB_WRITER
-        run_and_write.c)
-add_library(_writer STATIC ${LIB_WRITER})
-
 set(LIB_STATISTIC
         do_statistic.c)
 add_library(_statistic SHARED ${LIB_STATISTIC})
+
+set(LIB_WRITER
+        run_and_write.c
+        do_statistic.c)
+add_library(_writer STATIC ${LIB_WRITER})
 
 set(LIB_TESTER
         tests/stress_test.c

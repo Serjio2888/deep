@@ -30,5 +30,13 @@ wait.h
 structs.h
 /home/sergey/iz2copy/structs.h
 
+/home/sergey/iz2copy/main.c
+header.h
+/home/sergey/iz2copy/header.h
+
+/home/sergey/iz2copy/run_and_write.c
+header.h
+/home/sergey/iz2copy/header.h
+
 /home/sergey/iz2copy/structs.h
 

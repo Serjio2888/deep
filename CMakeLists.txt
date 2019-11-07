@@ -26,7 +26,8 @@ add_library(_statistic SHARED ${LIB_STATISTIC})
 
 set(LIB_WRITER
         run_and_write.c
-        do_statistic.c)
+        do_statistic.c
+        main.c)
 add_library(_writer STATIC ${LIB_WRITER})
 
 set(LIB_TESTER

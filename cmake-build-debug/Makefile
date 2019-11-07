@@ -262,6 +262,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
+	$(MAKE) -f CMakeFiles/_writer.dir/build.make CMakeFiles/_writer.dir/main.c.o
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/main.c.o
 .PHONY : main.c.o
 
@@ -271,6 +272,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
+	$(MAKE) -f CMakeFiles/_writer.dir/build.make CMakeFiles/_writer.dir/main.c.i
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/main.c.i
 .PHONY : main.c.i
 
@@ -280,6 +282,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
+	$(MAKE) -f CMakeFiles/_writer.dir/build.make CMakeFiles/_writer.dir/main.c.s
 	$(MAKE) -f CMakeFiles/iz2.dir/build.make CMakeFiles/iz2.dir/main.c.s
 .PHONY : main.c.s
 

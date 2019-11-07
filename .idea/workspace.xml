@@ -2,14 +2,14 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="iz2" targetName="do_statistic.out" />
-      <config projectName="iz2" targetName="_tester" />
-      <config projectName="iz2" targetName="_statistic" />
-      <config projectName="iz2" targetName="iz2_tests" />
-      <config projectName="iz2" targetName="tester.out" />
       <config projectName="iz2" targetName="run_and_write.out" />
-      <config projectName="iz2" targetName="_writer" />
+      <config projectName="iz2" targetName="do_statistic.out" />
       <config projectName="iz2" targetName="iz2" />
+      <config projectName="iz2" targetName="_statistic" />
+      <config projectName="iz2" targetName="_tester" />
+      <config projectName="iz2" targetName="tester.out" />
+      <config projectName="iz2" targetName="iz2_tests" />
+      <config projectName="iz2" targetName="_writer" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -19,8 +19,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99b4bc92-4cdf-48c2-8456-bad47871d82b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/do_statistic.c" beforeDir="false" afterPath="$PROJECT_DIR$/do_statistic.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_writer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_writer.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_writer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_writer.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_writer.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_writer.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_writer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_writer.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_writer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_writer.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/do_statistic.out.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/do_statistic.out.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/iz2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/iz2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/iz2_tests.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/iz2_tests.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run_and_write.out.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run_and_write.out.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tester.out.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tester.out.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/iz2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/iz2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/iz2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/iz2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/iz2_tests" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/iz2_tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib_statistic.so" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib_statistic.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib_tester.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib_tester.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tester.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tester.out" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application._tester">
+  <component name="RunManager" selected="CMake Application.iz2_tests">
     <configuration name="do_statistic.out" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="iz2" TARGET_NAME="do_statistic.out" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="iz2" RUN_TARGET_NAME="do_statistic.out" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -142,7 +162,7 @@
       <workItem from="1573141342422" duration="7964000" />
       <workItem from="1573150350118" duration="3337000" />
       <workItem from="1573158007719" duration="1405000" />
-      <workItem from="1573160885608" duration="742000" />
+      <workItem from="1573160885608" duration="1102000" />
     </task>
     <servers />
   </component>

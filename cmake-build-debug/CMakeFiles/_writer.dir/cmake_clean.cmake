@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/_writer.dir/do_statistic.c.o"
+  "CMakeFiles/_writer.dir/main.c.o"
   "CMakeFiles/_writer.dir/run_and_write.c.o"
   "lib_writer.a"
   "lib_writer.pdb"

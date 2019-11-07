@@ -435,6 +435,7 @@
 			<Option target="iz2"/>
 		</Unit>
 		<Unit filename="/home/sergey/iz2copy/main.c">
+			<Option target="_writer"/>
 			<Option target="iz2"/>
 		</Unit>
 		<Unit filename="/home/sergey/iz2copy/run_and_write.c">

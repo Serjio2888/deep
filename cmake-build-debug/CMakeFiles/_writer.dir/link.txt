@@ -1,2 +1,2 @@
-/usr/bin/ar qc lib_writer.a  CMakeFiles/_writer.dir/run_and_write.c.o CMakeFiles/_writer.dir/do_statistic.c.o
+/usr/bin/ar qc lib_writer.a  CMakeFiles/_writer.dir/run_and_write.c.o CMakeFiles/_writer.dir/do_statistic.c.o CMakeFiles/_writer.dir/main.c.o
 /usr/bin/ranlib lib_writer.a
